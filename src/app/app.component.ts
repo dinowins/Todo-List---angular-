@@ -1,10 +1,14 @@
 import { Component } from '@angular/core';
 
-@Component({
+@Component({ //decorator - contains meta data for component
   selector: 'app-root',
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'angular-crash-todolist';
+  title:string = 'angular-crash-todolist';
+
+  constructor() {
+
+  }
 }
